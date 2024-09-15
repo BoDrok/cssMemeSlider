@@ -129,3 +129,15 @@
     outline: 2px solid var(--dark);
     background: transparent;
   }
+
+  @media (max-width:769px) {
+    .control {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+  
+    .nav {
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+  }
